@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import TypeWriterEffect from 'react-typewriter-effect';
 import '../assets/styles/home.css';
 
 const Home = () => {
+
     return (
         <div className='row home' id='home'>
             <div className='col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12  builders'>

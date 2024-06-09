@@ -6,7 +6,7 @@ import {AiOutlineMail} from 'react-icons/ai';
 import { Link } from "react-router-dom";
 import "../assets/styles/footer.css";
 
-const Footer = () => {
+const Footer = ({updateActiveTab}) => {
     return (
         <div className="footer">
         <div className="row" style={{marginTop: '3%', width: '100%'}}>
@@ -74,9 +74,9 @@ const Footer = () => {
                 <span style={{ whiteSpace: 'nowrap' }}>Copyright © {new Date().getFullYear()} rainbowfinserv. All rights reserved.</span>
             </div>
             <div className="redirect-container">
-                <Link to='/disclaimer' className="redirect-link">Disclaimer</Link>
-                <Link to='/disclosure' className="redirect-link">Disclosure</Link>
-                <Link to='/privacy-policy' className="redirect-link">Privacy Policy</Link>
+                <Link to='/disclaimer' className="redirect-link" onClick={() => updateActiveTab('Disclaimer')}>Disclaimer</Link>
+                <Link to='/disclosure' className="redirect-link" onClick={() => updateActiveTab('Disclosure')}>Disclosure</Link>
+                <Link to='/privacy-policy' className="redirect-link" onClick={() => updateActiveTab('Privacy Policy')}>Privacy Policy</Link>
             </div>
         </div>
     </div>

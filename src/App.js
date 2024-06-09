@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -8,9 +8,16 @@ import Disclaimer from './components/Disclaimer';
 import Disclosure from './components/Disclosure';
 import PrivacyPolicy from './components/PrivacyPolicy';
 const App = () => {
+
+    const [active, setActive] = useState('Home');
+
+    const updateActiveTab = (newActiveTab) => {
+        setActive(newActiveTab);
+    };
+
     return (
         <div style={{backgroundColor:'rgb(252,252,252)'}}>
-            <Navbar />
+            <Navbar active={active} updateActiveTab={updateActiveTab} />
             <BrowserRouter>
                 <Routes>
                     <Route path='/' element={ <Main />} />
@@ -19,7 +26,7 @@ const App = () => {
                     <Route path='/disclosure' element = {<Disclosure/>} />
                     <Route path='/privacy-policy' element = {<PrivacyPolicy/>} />
                 </Routes>
-                <Footer />
+                <Footer updateActiveTab={updateActiveTab} />
             </BrowserRouter>
         </div>
     );

@@ -12,3 +12,45 @@
 .disclosure-container > div.disclosure-text-content > p {
     text-align: justify;
 }
+
+.table-container {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: separate; /* Changed from collapse to separate */
+    border-spacing: 0; /* Ensures spacing does not affect border */
+    border: 1px solid #1c6ade; /* Adds a border around the table */
+    border-radius: 10px; /* Rounds the table edges */
+    overflow: hidden; /* Ensures the border radius is applied correctly */
+  }
+  
+  th, td {
+    border: none; 
+    text-align: left;
+    padding: 12px;
+  }  
+  
+  th {
+    background-color: #1c6ade; 
+    color: white; 
+    font-weight: bold; 
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2; 
+  }
+  
+  tr:nth-child(odd) {
+    background-color: white; 
+  }
+  
+  td {
+    border-bottom: 1px solid #dddddd; 
+  }
+  
+  tr:last-child td {
+    border-bottom: none; 
+  }
