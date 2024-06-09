@@ -1,0 +1,14 @@
+.disclaimer-container {
+    width: 85%;
+    margin: 0px auto;
+}
+
+.disclaimer-container > h2.disclaimer-header {
+    text-align: center;
+    font-weight: 700;
+    margin: 36px 0px;
+}
+
+.disclaimer-container > div.disclaimer-text-content > p {
+    text-align: justify;
+}

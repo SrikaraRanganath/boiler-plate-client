@@ -45,7 +45,7 @@ const Contact = () => {
         <div className='row contact' id='contact'>
             <div className='row contact-container'>
                 <div className='col-xl-5 col-lg-4 col-md-4 col-sm-4 col-xs-4 line-container'><hr className='line'></hr></div>
-                <div className='col-xl-2 col-lg-5 col-md-5 col-sm-5 col-xs-4 contact-header'><center><span>Contact Us</span></center></div>
+                <div className='col-xl-2 col-lg-5 col-md-5 col-sm-5 col-xs-4 contact-header' ><center><span>Contact Us</span></center></div>
                 <div className='col-xl-5 col-lg-3 col-md-3 col-sm-3 col-xs-4 line-container'><hr className='line'></hr></div>
                 <div className='row yellow-line'></div>
             </div>
@@ -54,18 +54,19 @@ const Contact = () => {
                     <span style={{fontSize: '2em', fontWeight: '700'}}>We are here for questions or consulting</span>
                     <hr></hr>
                     <div className='row' style={{marginTop: '5%'}}>
-                        <p className='contact-name'>Mr. Shambulingappa L R </p>
-                        <a href="tel:+91984-599-5815" style={{textDecoration: 'none', color: 'black'}} > <p className='contact-phone'><MdOutlineLocalPhone size={25}/> &nbsp; +91 9845995815</p> </a>
+                        <p className='contact-name'>Mrs. Meenkashi Rajesh Sikchi </p>
+                        <a href="tel:+91937-015-4501" style={{textDecoration: 'none', color: 'black'}} > <p className='contact-phone'><MdOutlineLocalPhone size={25}/> &nbsp; +91-9370154501</p> </a>
                     </div>
                     <div className='row'>
-                        <p className='contact-name'>Mr. Harshith Kumar L S</p>
-                        <a href="tel:+91778-925-9097" style={{textDecoration: 'none', color: 'black'}} > <p className='contact-phone'><MdOutlineLocalPhone size={25}/> &nbsp; +91 77892529097</p> </a>
-                        <a href = "mailto:vilaashcorp@gmail.com" style={{textDecoration: 'none', color: 'black'}}> <p className='contact-email'><MdOutlineEmail size={25}/> &nbsp; vilaashcorp@gmail.com</p> </a>  
+                        <p className='contact-name'>Mr. Rishab Rajesh Sikchi</p>
+                        <a href="tel:+91902-837-3696" style={{textDecoration: 'none', color: 'black'}} > <p className='contact-phone'><MdOutlineLocalPhone size={25}/> &nbsp; +91-9028373696</p> </a>
+                        <a href = "mailto:rishabhsikchi@gmail.com" style={{textDecoration: 'none', color: 'black'}}> <p className='contact-email'><MdOutlineEmail size={25}/> &nbsp; rainbowfinserv@gmail.com</p> </a>  
                     </div>
                 </div>
 
-                <div className='col-xl-8 col-lg-8 col-md-6 col-sm-6 col-xs-6'>
-                    <div style={{textAlign: 'center'}}><span style={{fontSize: '1.8em', fontWeight: '700'}}>Send a message.</span></div>
+                <div className='col-xl-8 col-lg-8 col-md-6 col-sm-6 col-xs-6 contact-box'>
+                    <div style={{textAlign: 'center'}}><span style={{fontSize: '1.8em', fontWeight: '700'}}>Send us your query.</span></div>
+                    <div style={{textAlign: 'center'}}><span style={{fontSize: '1em', fontWeight: '400'}}>Our team will contact you within 24 hours</span></div>
                     <center><div className={`alert ${result}`} style={{width: '60%'}} hidden={show} > {rMessage} </div></center>
 
                     <form className='contact-form' id='contact-form' onSubmit={(event) => event.preventDefault()}>
@@ -83,7 +84,7 @@ const Contact = () => {
                        </div>
                         <div className="form-group">
                             <label className='contact-label' htmlFor="exampleFormControlTextarea1">Enter your message <span style={{color: 'red'}}>*</span></label>
-                            <textarea className="form-control contact-input" id="exampleFormControlTextarea1" rows="3" ></textarea>
+                            <textarea className="form-control contact-input" id="exampleFormControlTextarea1" ></textarea>
                         </div>
                         <center><button className='contact-submit btn btn-primary md-2' type='submit' onClick={onSend}> Submit </button></center>
                     </form>

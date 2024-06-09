@@ -1,30 +1,40 @@
 .footer {
+    width: 100%; 
     font-family: 'Inter';
     background-color: #292c2e;
     margin-top: 4%;
     padding-top: 2%;
     color: whitesmoke;
+    padding: 1%;
+    flex-shrink: 0;
 }
 
-.rounded-icons{
+.rounded-icons {
     border: 1.5px solid whitesmoke;
     border-radius: 100%;
-    background-clip:content-box;
+    background-clip: content-box;
     padding: 1%;
 }
 
 .footer-infos {
+    margin-top:0;
     margin-left: 5%;
 }
 
 .footer-info {
-    margin-bottom: 5%;
-    font-size: 1em;
+    margin-top:3%;
+    display: flex;
+    align-items: center;  
+    gap: 0.5%;
+}
+
+.footer-image-container {
+    margin:0;
+    padding:0; 
 }
 
 .footer-about {
     color: rgb(167, 166, 166);
-    text-align: justify;
 }
 
 .footer-links {
@@ -32,32 +42,73 @@
 }
 
 .footer-link {
-    color: whitesmoke;
+    font-weight: bold;
+    color: white; 
+    text-decoration: none; 
 }
 
 .footer-link:hover {
     color: rgb(167, 166, 166);
 }
 
-.plug {
-    text-align: center;
+.footer-image-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center
 }
 
-.plug-email {
-    color: #2596be;
+.footer-image {
+    width:20%;
+    height:20%;
 }
 
-.plug-email:hover {
-    color: rgb(167, 166, 166);
+.footer-heading{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: justify; 
+    margin-top:3% ;
+}
+
+.footer-subheading{
+    margin-top:3%;
+    gap: 0;
+}
+
+.footer-plug{
+    display: flex;
+    justify-content: space-between;
+}
+
+.redirect-container {
+    flex: 1;
+    margin: 0 1rem;
+    text-transform: uppercase; 
+    text-align: right;
+}
+
+.footer-copyright {
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.redirect-link{
+    font-weight: bold;
+    text-align: right;
+    color: white; 
     text-decoration: none;
+    margin-left: 30px; 
 }
 
-@media (max-width: 600px) {
-    .parent-about {
-        margin-right: 10%;
-    }
+.redirect-link:hover {
+    color: lightgrey;
+}
 
-    .footer-links {
-        display: none;
-    }
+.left-div {
+    width:0%;
+}
+
+.right-div {
+    flex:1;
+    margin-left:3.5%
 }

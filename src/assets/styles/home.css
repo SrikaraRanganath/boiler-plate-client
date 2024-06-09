@@ -5,13 +5,17 @@
 }
 
 .builder-box {
-    color: #fac310;
-    text-shadow: 1.2px 1.2px 2px black;
+    color: #1c6ade;
+    text-shadow: 5px 1.7px #00b386;
     font-size: 150%;
 }
 
 .builders {
     margin-top: 0;
+}
+
+.why-heading > div.react-typewriter-text-wrap > h1.react-typewriter-text {
+    text-wrap: nowrap;
 }
 
 .why-content {
@@ -27,7 +31,9 @@
 .why-text {
     text-align: justify;
     margin-left: 3.5%;
-    font-size: 1.3em;
+    font-size: 1.6em;
+    line-height: 23px;
+    font-style: italic;
 }
 
 @media (max-width: 760px) {

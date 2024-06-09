@@ -1,0 +1,14 @@
+.disclosure-container {
+    width: 85%;
+    margin: 0px auto;
+}
+
+.disclosure-container > h2.disclosure-header {
+    text-align: center;
+    font-weight: 700;
+    margin: 36px 0px;
+}
+
+.disclosure-container > div.disclosure-text-content > p {
+    text-align: justify;
+}

@@ -12,6 +12,12 @@
     justify-content: center;
 }
 
+.service-text {
+    text-align: justify;
+    margin-left: 3.5%;
+    font-size: 1.3em;
+}
+
 .projects-video {
     margin-top: 4%;
     width: 65vw;
@@ -46,6 +52,44 @@
     margin-right: 2%;
 }
 
+
+.mutual-img-container,
+.insurance-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95%;
+}
+
+.mutual-img-container img {
+    width: 360px;
+}
+
+.insurance-img-container img {
+    width: 340px;
+}
+
+.founder-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.founder-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
+  
+.founder-image:hover {
+transform: scale(1.1);
+}  
+
+.about-content {
+    font-size: 1.1em;
+    text-align: justify;
+    margin-right: 1.5%;
+}
 
 @media (max-width: 600px) {
     .projects-video {

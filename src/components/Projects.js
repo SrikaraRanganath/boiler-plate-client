@@ -1,26 +1,69 @@
     import React from "react";
-    import Project1 from '../assets/images/project/project-1.jpg';
-    import Project2 from '../assets/images/project/project-2.jpg';
-    import Project3 from '../assets/images/project/project-3.jpg';
-    import Project4 from '../assets/images/project/project-4.jpg';
-    import Project5 from '../assets/images/project/project-5.jpg';
-    import Project6 from '../assets/images/project/project-6.jpg';
+    // import Project1 from '../assets/images/project/project-1.jpg';
+    // import Project2 from '../assets/images/project/project-2.jpg';
+    // import Project3 from '../assets/images/project/project-3.jpg';
+    // import Project4 from '../assets/images/project/project-4.jpg';
+    // import Project5 from '../assets/images/project/project-5.jpg';
+    // import Project6 from '../assets/images/project/project-6.jpg';
     import '../assets/styles/projects.css';
+    import Mutual from '../assets/images/mutualfunds.gif';
+    import Insurance from '../assets/images/insurance.gif';
 
     const Projects = () => {
         return (
             <div className="row projects" id="projects">
-                <div className='row contact-container'>
+                {/* <div className='row contact-container'>
                     <div className='col-xl-5 col-lg-4 col-md-4 col-sm-4 col-xs-4 line-container'><hr className='line'></hr></div>
-                    <div className='col-xl-2 col-lg-5 col-md-5 col-sm-5 col-xs-4 contact-header'><center><span>Projects</span></center></div>
+                    <div className='col-xl-2 col-lg-5 col-md-5 col-sm-5 col-xs-4 contact-header'><span>Our Services</span></div>
                     <div className='col-xl-5 col-lg-3 col-md-3 col-sm-3 col-xs-4 line-container'><hr className='line'></hr></div>
                     <div className='row yellow-line'></div>
+                </div> */}
+                <div class="container">
+                    <div class="row" style={{alignItems: 'center'}}>
+                        <div class="col-xl-5 col-lg-4 col-md-4 col-sm-4 col-xs-4 line-container">
+                            <hr class="line"></hr>
+                        </div>
+                        <div class="col-xl-2 col-lg-5 col-md-5 col-sm-5 col-xs-4 contact-header">
+                            <span><center>Services</center></span>
+                        </div>
+                        <div class="col-xl-5 col-lg-3 col-md-3 col-sm-3 col-xs-4 line-container">
+                            <hr class="line"></hr>
+                        </div>
+                    </div>
                 </div>
-                <div className="row parent-video">
+                <div className="row" style={{marginTop: '60px'}}>
+                    <div className='col-xl-8 col-lg-8 col-md-9 col-sm-12 col-xs-12'>
+                    <div className='contact-header'><span>Mutual Funds</span></div>
+                    <p className="about-content">
+                        A mutual fund is a vehicle to pool money from various investors, with a promise that the money would be invested in a particular manner. Having said that, such funds are managed by experts.
+                        Essentially, what a mutual fund does is to form a link between investors; and securities, debt instruments, real estate, gold, silver bought with the aim of increasing the value of the money invested.
+                    </p> 
+                </div>
+                    <div className="col-xl-4 col-lg-4 col-md-3 col-sm-12 col-xs-12">
+                        <div className="mutual-img-container">
+                            <img src={Mutual} alt="Mrs. Meenakshi Rajesh Sikchi" />
+                        </div>
+                    </div>
+                </div>
+                <div className="row" style={{marginTop: '20px'}}>
+                    <div className="col-xl-4 col-lg-4 col-md-3 col-sm-12 col-xs-12">
+                        <div className="insurance-img-container">
+                            <img src={Insurance} alt="Mrs. Meenakshi Rajesh Sikchi" />
+                        </div>
+                    </div>
+                    <div className='col-xl-8 col-lg-8 col-md-9 col-sm-12 col-xs-12'>
+                        <div className='contact-header'><span>Insurance</span></div>
+                        <p className="about-content">
+                            Insurance is a financial safety net, helping you and your loved ones recover after something bad happens, such as ill health, fire, theft, accident or even death. When you purchase any type of insurance, you will receive an insurance policy, which is a legal contract between you and your insurance provider. Whenever you suffer a loss that is covered by your policy and file a claim, the insurance company pays you or a designated recipient, called a beneficiary, based on the terms of your policy.
+                        </p> 
+                    </div>
+                </div>
+
+                {/* <div className="row parent-video">
                     <iframe className='projects-video' src="https://www.youtube.com/embed/WQ1e_B7UPO4" title="Project Video" frameBorder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                </div>
-                <div className="row parent-carousel" style={{marginTop: '3%'}}>
+                </div> */}
+                {/* <div className="row parent-carousel" style={{marginTop: '3%'}}>
                     <h3 className="catalogue">Recent Project Catalogue</h3>
                     <hr style={{width: '80%'}}></hr>
                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -85,7 +128,7 @@
                             </button>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         )
     }
