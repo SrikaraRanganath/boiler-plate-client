@@ -11,8 +11,26 @@
 }
 
 .builders {
-    margin-top: 0;
+    color: black;
+    text-align: center;
+    font-size: 1.6em;
+    margin: 0;
+    font-family: 'Coolvetica';
+    font-weight: 400;
+    position: relative; 
+
 }
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
 
 .why-heading > div.react-typewriter-text-wrap > h1.react-typewriter-text {
     text-wrap: nowrap;
@@ -34,6 +52,23 @@
     font-size: 1.6em;
     line-height: 23px;
     font-style: italic;
+    font-weight: 250;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.why-your {
+    font-size: 2.6em;
+    font-weight: bold;
+    animation: fadeIn 0.1s 1s forwards ease-in-out;
+    opacity: 0; 
 }
 
 @media (max-width: 760px) {

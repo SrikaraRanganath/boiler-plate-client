@@ -56,16 +56,14 @@
 }
 
 .client-button{
-    font-weight:bold;
-    color:#1c6ade;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:350;
+    border:none;
+    color:#00b386;
     padding:4px 14px;
-    border: 2px solid whitesmoke;
     background-color: white;
     border-radius: 5px;
     box-shadow: 4px 4px 7px rgb(20, 20, 20);
-    /* background: linear-gradient(145deg, #00c08f, #00a179); */
-    /* box-shadow:  5px 5px 10px #007658,
-                 -5px -5px 10px #00f0b4; */
 }
 
 .client-button.active {

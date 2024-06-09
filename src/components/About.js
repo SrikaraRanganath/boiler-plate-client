@@ -18,44 +18,6 @@ const About = () => {
             <div className='row yellow-line'></div>
         </div>
         <div className="row" style={{marginTop: '2%'}}>
-                {/* <div id="carouselExampleIndicators" className="carousel slide carousel-fade about-carousel" data-bs-ride="carousel" >
-                    <div className="carousel-inner">
-                        <div className="carousel-item active">
-                            <img src={Office1} className="d-block w-100" alt="..."/>
-                            <div className="carousel-caption d-md-block" style={{fontFamily: 'Inter'}}>
-                                <h4>Our Office</h4>
-                                <p>Rainbow Financial Services 
-                                    C/o TV House, Siddharth  
-                                    Bhuvan, Opp.Sahakar Bhavan,  
-                                    Morshi Road 
-                                    Amravati – 444601.
-                                </p>
-                            </div>
-                        </div>
-                        <div className="carousel-item">
-                            <img src={Office2} className="d-block w-100" alt="..."/>
-                        </div>
-                        <div className="carousel-item">
-                            <img src={Office3} className="d-block w-100" alt="..."/>
-                        </div>
-                        <div className="carousel-item">
-                            <img src={Office4} className="d-block w-100" alt="..."/>
-                        </div>
-                        <div className="carousel-item">
-                            <img src={Office5} className="d-block w-100" alt="..."/>
-                        </div>
-                    </div>
-                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Previous</span>
-                    </button>
-                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Next</span>
-                    </button>
-                </div> */}
-
-        <div className="row" style={{marginTop: '2%'}}></div>
             <div className="col-xl-8 col-lg-8 col-md-6 col-sm-12 col-xs-12">
                 <div className='contact-header'><span>Mrs. Meenakshi Rajesh Sikchi</span></div>
                 <p className="about-content">
