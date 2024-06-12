@@ -77,11 +77,17 @@
              -5px -5px 10px #00f0b4;
 }
 
+.client-button-container{
+    align-items: center;
+    justify-content: center;
+    padding: 1% 4%;
+}
+
 .button-container{
     margin-right:5%;
 }
 
-@media (max-width:990px) {
+@media (max-width: 990px) {
     .navbar {
         display: none;
     }
@@ -91,12 +97,13 @@
     }
 
     .navbar-mobile {
-        margin-top: 4%;
-        padding-top: 2%;
+        color: white;
+        padding: 1%;
+        background-color: #00b386;
+        opacity: 1;
         display: flex;
         align-items: center;
-        border-bottom: 0.15em solid black;
-        background-color: white;
+        padding:3%;
     }
 
     .hamburger {
@@ -107,33 +114,77 @@
     }
 
     .navbar-mobile .navbar-links-mobile ul {
+        text-align: center;
         display: flex;
         list-style: none;
         flex-direction: column;
-        background-color: #fac310;
-        color: #000000;
+        background-color: white;
+        color: white;
         position: absolute;
         top: 105%;
-        left: 2.5%;
-        width: 95%;
+        left: 60%;
+        width: 30%;
+        border-radius: 3px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
     }
 
     .nav-item-mobile {
         width: 100%;
-        margin-left: 37%;
+        margin-left: -10%;
         font-size: 1.3em;
-        margin-bottom: 2%;
+        color: black;
+        padding: 10px 0;
+        border-bottom: 1px solid #6d6c6c; 
+    }
+
+    .nav-item-mobile:last-child {
+        border-bottom: none; 
     }
 
     .nav-item-mobile:hover {
-        color: #000000;
+        color: black;
         font-weight: 600;
-        border: none;
     }
-    
+
     .active {
-        color: #000000;
+        color: black;
         font-weight: 700;
-        border: none;
     }
+
+    .nav-item-mobile a {
+        text-decoration: none;
+        color: black;
+        display: block;
+    }
+
+    
+.client-button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:350;
+    border:none;
+    color:#00b386;
+    padding:4px 14px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 4px 4px 7px rgb(20, 20, 20);
 }
+
+.client-button.active {
+    color:white;
+    padding:4px 14px;
+    border:none;
+    background-color: transparent;
+    border-radius: 5px;
+    background: linear-gradient(145deg, #00a179, #00c08f);
+    box-shadow:  5px 5px 10px #007658,
+             -5px -5px 10px #00f0b4;
+
+}
+
+.client-button-container{
+    position:absolute;
+    right:17%;
+    padding: 1% 4%;
+}
+}
+

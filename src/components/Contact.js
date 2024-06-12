@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {MdOutlineLocalPhone, MdOutlineEmail} from 'react-icons/md';
 import axios from 'axios';
 import '../assets/styles/contact.css';
+import ContactBg from '../assets/images/contact.jpg'
 
 const Contact = () => {
 
@@ -42,7 +43,7 @@ const Contact = () => {
     }
 
     return (
-        <div className='row contact' id='contact'>
+        <div className='row contact' id='contact' style={{ '--contact-img': `url(${ContactBg})` }}>
             <div className='row contact-container'>
                 <div className='col-xl-5 col-lg-4 col-md-4 col-sm-4 col-xs-4 line-container'><hr className='line'></hr></div>
                 <div className='col-xl-2 col-lg-5 col-md-5 col-sm-5 col-xs-4 contact-header' ><center><span>Contact Us</span></center></div>

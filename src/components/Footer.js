@@ -10,6 +10,26 @@ const Footer = ({updateActiveTab}) => {
     return (
         <div className="footer">
         <div className="row" style={{marginTop: '3%', width: '100%'}}>
+
+        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 footer-infos" >
+                <h4>Contact</h4>
+                <div className="row footer-info" >
+                    <div className="left-div">
+                        <span><TfiLocationPin size={30}/> &nbsp;</span> 
+                    </div>
+                    <div  className="right-div">
+                        <p style={{justifyContent:'center'}}><strong> Rainbow Financial Services C/o TV House, Siddharth  Bhuvan, Opp.Sahakar Bhavan,  Morsh Road Amravati – 444601.</strong> </p>
+                    </div>
+                </div>
+                <div className="row footer-info">
+                    <span><BsTelephone size={23}/> <a href="tel:+91984-599-5815" style={{textDecoration: 'none', color: 'whitesmoke'}} > &nbsp; <strong>+080 26793240</strong> </a></span>
+                </div>
+                <div className="row footer-info">
+                    <span><AiOutlineMail size={25}/> <a href="mailto:vilaashcorp@gmail.com" style={{textDecoration: 'none',color: '#2596be'}} > &nbsp; <strong>rainbowfinserv@gmail.com</strong></a></span>
+                </div>
+            </div>
+            
+
             <div className="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 footer-infos">
                 <div className="row footer-info">
                     <div className="footer-image-container">
@@ -31,23 +51,7 @@ const Footer = ({updateActiveTab}) => {
                 </div>
             </div>
 
-            <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 footer-infos" >
-                <h4>Contact</h4>
-                <div className="row footer-info" >
-                    <div className="left-div">
-                        <span><TfiLocationPin size={35} className='rounded-icons'/> &nbsp;</span> 
-                    </div>
-                    <div  className="right-div">
-                        <p style={{justifyContent:'center'}}><strong> Rainbow Financial Services C/o TV House, Siddharth  Bhuvan, Opp.Sahakar Bhavan,  Morsh Road Amravati – 444601.</strong> </p>
-                    </div>
-                </div>
-                <div className="row footer-info">
-                    <span><BsTelephone size={35} className='rounded-icons'/> <a href="tel:+91984-599-5815" style={{textDecoration: 'none', color: 'whitesmoke'}} > &nbsp; <strong>+080 26793240</strong> </a></span>
-                </div>
-                <div className="row footer-info">
-                    <span><AiOutlineMail size={35} className='rounded-icons'/> <a href="mailto:vilaashcorp@gmail.com" style={{textDecoration: 'none',color: '#2596be'}} > &nbsp; <strong>rainbowfinserv@gmail.com</strong></a></span>
-                </div>
-            </div>
+
 
             <div className="col-xl-2 col-lg-3 col-md-3 col-sm-12 col-xs-12 footer-infos footer-links">
                 <h4>Links</h4>

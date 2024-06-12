@@ -11,7 +11,7 @@ import '../assets/styles/about.css';
 const About = () => {
     return (
     <div className="row about" id="about">
-        <div className='row contact-container'>
+        <div className='row about-container'>
             <div className='col-5 line-container'><hr className='line'></hr></div>
             <div className='col-2 contact-header'><center><span>About</span></center></div>
             <div className='col-5 line-container'><hr className='line'></hr></div>

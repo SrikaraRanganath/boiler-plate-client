@@ -2,6 +2,9 @@
     margin-top: 3%;
     font-family: 'Inter';
     align-items: center;
+    /* background-image: var(--home-img); */
+    background-size:cover;
+    padding:1%;
 }
 
 .builder-box {

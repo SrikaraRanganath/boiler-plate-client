@@ -47,7 +47,7 @@ const Navigation = ({active, updateActiveTab}) => {
                         </ul>
                 }
             </div>
-            <div className="button-container">
+            <div className="client-button-container">
                 <a href="https://wealthelite.in/client-login" target='_blank' rel="noreferrer"><button className = "client-button">Client Login</button></a>
             </div> 
         </nav>

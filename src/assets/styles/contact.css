@@ -1,12 +1,19 @@
 .contact {
     font-family: 'Inter';
+    background-image: var(--contact-img); 
+    background-size:contain;
+    opacity:0.8;
+    padding:1%;
 }
 
 .contact-container {
     display: flex;
+    font-family:'Montserrat','sans-serif';
+    font-weight:bold;
 }
 
 .contact-header {
+    
     font-weight: 800;
     font-size: 210%;
 }
@@ -15,6 +22,7 @@
     border-top: 0.5em solid #1c6ade;
     opacity: 1;
     border-radius:5px;
+    margin-top:2%
 }
 
 .contact-name {

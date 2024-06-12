@@ -20,11 +20,11 @@
   
   table {
     width: 100%;
-    border-collapse: separate; /* Changed from collapse to separate */
-    border-spacing: 0; /* Ensures spacing does not affect border */
-    border: 1px solid #1c6ade; /* Adds a border around the table */
-    border-radius: 10px; /* Rounds the table edges */
-    overflow: hidden; /* Ensures the border radius is applied correctly */
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid #1c6ade;
+    border-radius: 10px; 
+    overflow: hidden;
   }
   
   th, td {

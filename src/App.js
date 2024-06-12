@@ -7,6 +7,8 @@ import Login from './components/Login';
 import Disclaimer from './components/Disclaimer';
 import Disclosure from './components/Disclosure';
 import PrivacyPolicy from './components/PrivacyPolicy';
+import Kyc from './components/Kyc';
+
 const App = () => {
 
     const [active, setActive] = useState('Home');
@@ -25,6 +27,7 @@ const App = () => {
                     <Route path='/disclaimer' element={<Disclaimer />} />
                     <Route path='/disclosure' element = {<Disclosure/>} />
                     <Route path='/privacy-policy' element = {<PrivacyPolicy/>} />
+                    <Route path='/kyc' element = { <Kyc/>} />
                 </Routes>
                 <Footer updateActiveTab={updateActiveTab} />
             </BrowserRouter>

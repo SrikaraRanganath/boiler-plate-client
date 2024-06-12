@@ -16,9 +16,13 @@ const MobileNavigation = () => {
         <nav className='navbar-mobile'>
             <div className='navbar-logo'>
                 <a href='/'>
-                    <img className='logo img-fluid' src={Logo} alt='vilaash constructions' />
+                    <img className='logo img-fluid' src={Logo} alt='rainbow finserv' />
                 </a>
             </div>
+
+            <div className="client-button-container">
+                <a href="https://wealthelite.in/client-login" target='_blank' rel="noreferrer"><button className = "client-button">Client Login</button></a>
+            </div> 
             
             { open ? <AiOutlineClose className='hamburger' size='30px' onClick={() => setOpen(!open)} /> :  <AiOutlineMenu className='hamburger' size='30px' onClick={() => setOpen(!open)} />}
 
