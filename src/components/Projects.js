@@ -35,20 +35,20 @@
                     <div className='col-xl-8 col-lg-8 col-md-9 col-sm-12 col-xs-12'>
                     <div className='contact-header'><span>Mutual Funds</span></div>
                     <p className="about-content">
-                        A mutual fund is a vehicle to pool money from various investors, with a promise that the money would be invested in a particular manner. Having said that, such funds are managed by experts.
-                        Essentially, what a mutual fund does is to form a link between investors; and securities, debt instruments, real estate, gold, silver bought with the aim of increasing the value of the money invested.
+                    A mutual fund is simply a financial intermediary that allows a group of investors to pool their money together with a predetermined investment objective. The mutual fund will have a fund manager who is responsible for investing the pooled money into specific securities (usually stocks or bonds).
+                    Mutual funds are one of the best investments ever created because they are very cost efficient and very easy to invest in (you don’t have to figure out which stocks or bonds to buy).
                     </p> 
                 </div>
                     <div className="col-xl-4 col-lg-4 col-md-3 col-sm-12 col-xs-12">
                         <div className="mutual-img-container">
-                            <img src={Mutual} alt="Mrs. Meenakshi Rajesh Sikchi" />
+                            <img src={Mutual} alt="Mutual Funds" />
                         </div>
                     </div>
                 </div>
                 <div className="row" style={{marginTop: '20px'}}>
                     <div className="col-xl-4 col-lg-4 col-md-3 col-sm-12 col-xs-12">
                         <div className="insurance-img-container">
-                            <img src={Insurance} alt="Mrs. Meenakshi Rajesh Sikchi" />
+                            <img src={Insurance} alt="Insurance" />
                         </div>
                     </div>
                     <div className='col-xl-8 col-lg-8 col-md-9 col-sm-12 col-xs-12'>

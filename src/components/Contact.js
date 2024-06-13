@@ -61,7 +61,7 @@ const Contact = () => {
                     <div className='row'>
                         <p className='contact-name'>Mr. Rishab Rajesh Sikchi</p>
                         <a href="tel:+91902-837-3696" style={{textDecoration: 'none', color: 'black'}} > <p className='contact-phone'><MdOutlineLocalPhone size={25}/> &nbsp; +91-9028373696</p> </a>
-                        <a href = "mailto:rishabhsikchi@gmail.com" style={{textDecoration: 'none', color: 'black'}}> <p className='contact-email'><MdOutlineEmail size={25}/> &nbsp; rainbowfinserv@gmail.com</p> </a>  
+                        <a href = "mailto:mrsikchi@gmail.com" style={{textDecoration: 'none', color: 'black'}}> <p className='contact-email'><MdOutlineEmail size={25}/> &nbsp; mrsikchi@gmail.com</p> </a>  
                     </div>
                 </div>
 

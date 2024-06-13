@@ -18,14 +18,18 @@ const Footer = ({updateActiveTab}) => {
                         <span><TfiLocationPin size={30}/> &nbsp;</span> 
                     </div>
                     <div  className="right-div">
-                        <p style={{justifyContent:'center'}}><strong> Rainbow Financial Services C/o TV House, Siddharth  Bhuvan, Opp.Sahakar Bhavan,  Morsh Road Amravati – 444601.</strong> </p>
+                        <p style={{justifyContent:'center'}}><strong> Rainbow Financial Services 
+                            Ground Floor, Siddharth Bhawan, Opposite Sahakar Bhawan,  
+                            Morshi Road 
+                            Amravati – 444601
+                            </strong> </p>
                     </div>
                 </div>
                 <div className="row footer-info">
                     <span><BsTelephone size={23}/> <a href="tel:+91984-599-5815" style={{textDecoration: 'none', color: 'whitesmoke'}} > &nbsp; <strong>+080 26793240</strong> </a></span>
                 </div>
                 <div className="row footer-info">
-                    <span><AiOutlineMail size={25}/> <a href="mailto:vilaashcorp@gmail.com" style={{textDecoration: 'none',color: '#2596be'}} > &nbsp; <strong>rainbowfinserv@gmail.com</strong></a></span>
+                    <span><AiOutlineMail size={25}/> <a href="mailto:vilaashcorp@gmail.com" style={{textDecoration: 'none',color: '#2596be'}} > &nbsp; <strong>mrsikchi@gmail.com</strong></a></span>
                 </div>
             </div>
             
@@ -37,7 +41,24 @@ const Footer = ({updateActiveTab}) => {
                     </div>
                     <div className="footer-heading">
                         <h4>Rainbow Financial Services</h4>
-                        <h5>Meenakshi Rajesh Sikchi</h5>
+  
+                    </div>
+                    <div className="footer-subheading">
+                        <p style={{marginBottom: '2px'}}><strong>ARN:</strong>119096</p>
+                        <p><strong>EUIN:</strong>E182587</p>
+                    </div>
+                </div>
+                <div className="row footer-info parent-about">
+                    <p className="footer-about" style={{marginBottom: '0px'}}><strong>Since:</strong> January 30,2017</p>
+                    <p className="footer-about"><strong>Current Validity:</strong> September 20, 2025</p>
+                    <p style={{fontSize: '14px  '}}><strong> AMFI REGISTERED MUTUAL FUND DISTRIBUTOR </strong></p>
+                </div>
+                <div className="row footer-info">
+                    <div className="footer-image-container">
+                        <img  className="footer-image" src={Amfi} alt="AMFI"/>
+                    </div>
+                    <div className="footer-heading">
+                        <h4>Meenakshi Rajesh Sikchi</h4>
                     </div>
                     <div className="footer-subheading">
                         <p style={{marginBottom: '2px'}}><strong>ARN:</strong>52978</p>
@@ -47,7 +68,7 @@ const Footer = ({updateActiveTab}) => {
                 <div className="row footer-info parent-about">
                     <p className="footer-about" style={{marginBottom: '0px'}}><strong>Since:</strong> August 31,2007</p>
                     <p className="footer-about"><strong>Current Validity:</strong> August 29, 2024</p>
-                    <p style={{fontSize: '14px  '}}><strong>AMFI REGISTERED MUTUAL FUND DISTRIBUTOR </strong></p>
+                    <p style={{fontSize: '14px  '}}><strong> AMFI REGISTERED MUTUAL FUND DISTRIBUTOR </strong></p>
                 </div>
             </div>
 
