@@ -42,7 +42,7 @@ const MobileNavigation = () => {
                             </motion.li>
                             <motion.li initial={animateFrom} animate={animateTo} transition={{delay: 0.20}} className={`nav-item-mobile ${active==='About'?'active':null}`} onClick={() => {setActive('About') 
                             setOpen(!open) }}>
-                                <a href='#about' style={{textDecoration: 'none', color: 'black'}}>About</a>
+                                <a href='#about' style={{textDecoration: 'none', color: 'black'}}>About Us</a>
                             </motion.li>
                             <motion.li href='#contact   ' initial={animateFrom} animate={animateTo} transition={{delay: 0.30}} className={`nav-item-mobile ${active==='Contact'?'active':null}`} onClick={() => {setActive('Contact') 
                             setOpen(!open)} }>
@@ -61,7 +61,7 @@ const MobileNavigation = () => {
                             </motion.li>
                             <motion.li initial={animateFrom} animate={animateTo} transition={{delay: 0.20}} className={`nav-item-mobile ${active==='About'?'active':null}`} onClick={() => {setActive('About') 
                             setOpen(!open) }}>
-                                <a href='../#about' style={{textDecoration: 'none', color: 'black'}}>About</a>
+                                <a href='../#about' style={{textDecoration: 'none', color: 'black'}}>About Us</a>
                             </motion.li>
                             <motion.li href='../#contact   ' initial={animateFrom} animate={animateTo} transition={{delay: 0.30}} className={`nav-item-mobile ${active==='Contact'?'active':null}`} onClick={() => {setActive('Contact') 
                             setOpen(!open)} }>

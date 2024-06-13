@@ -54,9 +54,6 @@ const Footer = ({updateActiveTab}) => {
                     <p style={{fontSize: '14px  '}}><strong> AMFI REGISTERED MUTUAL FUND DISTRIBUTOR </strong></p>
                 </div>
                 <div className="row footer-info">
-                    <div className="footer-image-container">
-                        <img  className="footer-image" src={Amfi} alt="AMFI"/>
-                    </div>
                     <div className="footer-heading">
                         <h4>Meenakshi Rajesh Sikchi</h4>
                     </div>

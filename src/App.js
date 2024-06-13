@@ -8,6 +8,8 @@ import Disclaimer from './components/Disclaimer';
 import Disclosure from './components/Disclosure';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import Kyc from './components/Kyc';
+import Mutual from './components/Mutual';
+import Insurance from './components/Insurance';
 
 const App = () => {
 
@@ -28,6 +30,8 @@ const App = () => {
                     <Route path='/disclosure' element = {<Disclosure/>} />
                     <Route path='/privacy-policy' element = {<PrivacyPolicy/>} />
                     <Route path='/kyc' element = { <Kyc/>} />
+                    <Route path = '/mutual' element = { <Mutual/> } />
+                    <Route path='/insurance' element = { <Insurance/> } />
                 </Routes>
                 <Footer updateActiveTab={updateActiveTab} />
             </BrowserRouter>

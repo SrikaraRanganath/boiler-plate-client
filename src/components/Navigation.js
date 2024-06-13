@@ -24,7 +24,7 @@ const Navigation = ({active, updateActiveTab}) => {
                                 <a href='#projects' style={{textDecoration: 'none', color: 'whitesmoke'}}> Services </a>
                             </li>
                             <li className={`nav-item ${active==='About'?'active':null}`} onClick={() => updateActiveTab('About')}>
-                                <a href='#about' style={{textDecoration: 'none', color: 'whitesmoke'}}>About</a>
+                                <a href='#about' style={{textDecoration: 'none', color: 'whitesmoke'}}>About Us</a>
                             </li>
                             <li href='#contact' className={`nav-item ${active==='Contact'?'active':null}`} onClick={() => updateActiveTab('Contact')}>
                                 <a href='#contact' style={{textDecoration: 'none', color: 'whitesmoke'}}>Contact</a>
@@ -39,7 +39,7 @@ const Navigation = ({active, updateActiveTab}) => {
                                 <a href='../#projects' style={{textDecoration: 'none', color: 'whitesmoke'}}> Services </a>
                             </li>
                             <li className={`nav-item ${active==='About'?'active':null}`} onClick={() => updateActiveTab('About')}>
-                                <a href='../#about' style={{textDecoration: 'none', color: 'whitesmoke'}}>About</a>
+                                <a href='../#about' style={{textDecoration: 'none', color: 'whitesmoke'}}>About Us</a>
                             </li>
                             <li href='#contact' className={`nav-item ${active==='Contact'?'active':null}`} onClick={() => updateActiveTab('Contact')}>
                                 <a href='../#contact' style={{textDecoration: 'none', color: 'whitesmoke'}}>Contact</a>
