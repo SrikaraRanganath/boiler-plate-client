@@ -1,10 +1,22 @@
 import React from 'react';
 import Logo from '../assets/images/logo.gif';
+import DropdownMenu from './DropdownMenu';
 import '../assets/styles/navigation.css';
 
 const Navigation = ({active, updateActiveTab}) => {
 
     const hostPath = window.location.pathname;
+
+    const servicesDropdownMenuOptions = [
+        {
+            "name": "Mutual Funds",
+            "routeToPathName": "mutual-funds"
+        },
+        {
+            "name": "Insurance",
+            "routeToPathName": "insurance"
+        },
+    ];
 
     return (
         <nav className='navbar'>
@@ -20,8 +32,9 @@ const Navigation = ({active, updateActiveTab}) => {
                             <li href='#home' className={`nav-item ${active==='Home'?'active':null}`} onClick={() => updateActiveTab('Home')}>
                                 <a href='#home' style={{textDecoration: 'none', color: 'whitesmoke'}}> Home</a>
                             </li>
-                            <li className={`nav-item ${active==='Projects'?'active':null}`} onClick={() => updateActiveTab('Projects')}>
-                                <a href='#projects' style={{textDecoration: 'none', color: 'whitesmoke'}}> Services </a>
+                            <li className={`nav-item ignore-active-border ${active==='Projects'?'active':null}`} onClick={() => updateActiveTab('Projects')}>
+                                {/* <a href='#projects' style={{textDecoration: 'none', color: 'whitesmoke'}}> Services </a> */}
+                                <DropdownMenu title="Services" dropdownOptions={servicesDropdownMenuOptions}/>
                             </li>
                             <li className={`nav-item ${active==='About'?'active':null}`} onClick={() => updateActiveTab('About')}>
                                 <a href='#about' style={{textDecoration: 'none', color: 'whitesmoke'}}>About Us</a>
