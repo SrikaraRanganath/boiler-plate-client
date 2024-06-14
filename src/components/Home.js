@@ -7,25 +7,28 @@ import '../assets/styles/animatedletters.css';
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
-  const nameArray = ['W', 'e', 'a', 'l', 't', 'h', ' ', 'P', 'a', 'r', 't', 'n', 'e', 'r', '.'];
+  
+  const wealthAniamtedText = " Wealth Partner.";
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setLetterClass('text-animate-hover');
-    }, 4000);
+    }, 3000);
 
     return () => clearTimeout(timer);
   }, []);
 
   return (
     <div className='row home' id='home'>
-        <div className='col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 builders'>
+        <div className='builders' style={{textWrap: 'balprettyance'}}>
             <span className="why-your">Your </span>
+            <span className='animated-wealth-content'>
                 <AnimatedLetters
                 letterClass={letterClass}
-                strArray={nameArray}
-                idx={15}
-            />
+                strArray={wealthAniamtedText.split('')}
+                idx={wealthAniamtedText.length}
+                />
+            </span>
         </div>
         <div className='row why-content'>
             <div className='col-xl-3 col-lg-4 col-md-3 col-sm-12 col-xs-12 why-heading'>

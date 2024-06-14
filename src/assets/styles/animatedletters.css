@@ -211,3 +211,25 @@
 .text-animate._35 {
     animation-delay: 3.5s;
 }
+
+
+@media screen and (max-width: 1200px) {
+    .animated-wealth-content {
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .animated-wealth-content {
+        font-size: 0.6em;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .why-your {
+        font-size: 1.3em;
+    }
+    .animated-wealth-content {
+        font-size: 0.4em;
+    }
+}

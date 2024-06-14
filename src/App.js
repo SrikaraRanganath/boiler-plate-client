@@ -22,8 +22,8 @@ const App = () => {
 
     return (
         <div style={{backgroundColor:'rgb(252,252,252)'}}>
-            <Navbar active={active} updateActiveTab={updateActiveTab} />
             <BrowserRouter>
+                <Navbar active={active} updateActiveTab={updateActiveTab} />
                 <Routes>
                     <Route path='/' element={ <Main />} />
                     <Route path='/admin' element={ <Login />} />
@@ -31,7 +31,7 @@ const App = () => {
                     <Route path='/disclosure' element = {<Disclosure/>} />
                     <Route path='/privacy-policy' element = {<PrivacyPolicy/>} />
                     <Route path='/kyc' element = { <Kyc/>} />
-                    <Route path = '/mutual' element = { <Mutual/> } />
+                    <Route path = '/mutual-funds' element = { <Mutual/> } />
                     <Route path='/insurance' element = { <Insurance/> } />
                     <Route path='/news' element = { <News/> } />
                 </Routes>
