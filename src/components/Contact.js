@@ -46,22 +46,22 @@ const Contact = () => {
         <div className='row contact' id='contact' style={{ '--contact-img': `url(${ContactBg})` }}>
             <div className='row contact-container'>
                 <div className='col-xl-5 col-lg-3 col-md-3 col-sm-3 col-xs-4 line-container'><hr className='line'></hr></div>
-                <div className='col-xl-2 col-lg-6 col-md-6 col-sm-6 col-xs-4 contact-header' ><center><span>Contact Us</span></center></div>
+                <div className='col-xl-2 col-lg-6 col-md-6 col-sm-6 col-xs-4 contact-header'><center><span>Contact Us</span></center></div>
                 <div className='col-xl-5 col-lg-3 col-md-3 col-sm-3 col-xs-4 line-container'><hr className='line'></hr></div>
                 <div className='row yellow-line'></div>
             </div>
             <div className='row' style={{marginTop: '2%', marginLeft: '3%'}}>
-                <div className='col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6'>
+                <div className='col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-6 contact-details'>
                     <span style={{fontSize: '2em', fontWeight: '700'}}>We are here for questions or consulting</span>
                     <hr></hr>
-                    <div className='row' style={{marginTop: '5%'}}>
+                    <div className='row' style={{marginTop: '5%', color:'white'}}>
                         <p className='contact-name'>Mrs. Meenkashi Rajesh Sikchi </p>
-                        <a href="tel:+91937-015-4501" style={{textDecoration: 'none', color: 'black'}} > <p className='contact-phone'><MdOutlineLocalPhone size={25}/> &nbsp; +91-9370154501</p> </a>
+                        <a href="tel:+91937-015-4501" style={{textDecoration: 'none', color: 'white'}} > <p className='contact-phone'><MdOutlineLocalPhone size={25}/> &nbsp; +91-9370154501</p> </a>
                     </div>
-                    <div className='row'>
+                    <div className='row' style={{marginTop: '5%', color:'white'}}>
                         <p className='contact-name'>Mr. Rishab Rajesh Sikchi</p>
-                        <a href="tel:+91902-837-3696" style={{textDecoration: 'none', color: 'black'}} > <p className='contact-phone'><MdOutlineLocalPhone size={25}/> &nbsp; +91-9028373696</p> </a>
-                        <a href = "mailto:mrsikchi@gmail.com" style={{textDecoration: 'none', color: 'black'}}> <p className='contact-email'><MdOutlineEmail size={25}/> &nbsp; mrsikchi@gmail.com</p> </a>  
+                        <a href="tel:+91902-837-3696" style={{textDecoration: 'none', color: 'white'}} > <p className='contact-phone'><MdOutlineLocalPhone size={25}/> &nbsp; +91-9028373696</p> </a>
+                        <a href = "mailto:mrsikchi@gmail.com" style={{textDecoration: 'none', color: 'white'}}> <p className='contact-email'><MdOutlineEmail size={25}/> &nbsp; mrsikchi@gmail.com</p> </a>  
                     </div>
                 </div>
 

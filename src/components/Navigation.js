@@ -18,6 +18,18 @@ const Navigation = ({active, updateActiveTab}) => {
         },
     ];
 
+    const investorZoneMenuOptions = [
+        {
+            "name": "KYC Validation",
+            "routeToPathName": "kyc"
+        },
+        {
+            "name": "Circulars and Updates",
+            "routeToPathName": "news"
+
+        }
+    ]
+
     return (
         <nav className='navbar'>
             <div className='navbar-logo'>
@@ -33,8 +45,10 @@ const Navigation = ({active, updateActiveTab}) => {
                                 <a href='#home' style={{textDecoration: 'none', color: 'whitesmoke'}}> Home</a>
                             </li>
                             <li className={`nav-item ignore-active-border ${active==='Projects'?'active':null}`} onClick={() => updateActiveTab('Projects')}>
-                                {/* <a href='#projects' style={{textDecoration: 'none', color: 'whitesmoke'}}> Services </a> */}
                                 <DropdownMenu title="Services" dropdownOptions={servicesDropdownMenuOptions}/>
+                            </li>
+                            <li className={`nav-item ignore-active-border ${active==='InvesterZone'?'active':null}`} onClick={() => updateActiveTab('InvestorZone')}>
+                                <DropdownMenu title="InvestorZone" dropdownOptions={investorZoneMenuOptions}/>
                             </li>
                             <li className={`nav-item ${active==='About'?'active':null}`} onClick={() => updateActiveTab('About')}>
                                 <a href='#about' style={{textDecoration: 'none', color: 'whitesmoke'}}>About Us</a>
