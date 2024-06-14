@@ -10,6 +10,7 @@ import PrivacyPolicy from './components/PrivacyPolicy';
 import Kyc from './components/Kyc';
 import Mutual from './components/Mutual';
 import Insurance from './components/Insurance';
+import News from './components/News';
 
 const App = () => {
 
@@ -32,6 +33,7 @@ const App = () => {
                     <Route path='/kyc' element = { <Kyc/>} />
                     <Route path = '/mutual' element = { <Mutual/> } />
                     <Route path='/insurance' element = { <Insurance/> } />
+                    <Route path='/news' element = { <News/> } />
                 </Routes>
                 <Footer updateActiveTab={updateActiveTab} />
             </BrowserRouter>

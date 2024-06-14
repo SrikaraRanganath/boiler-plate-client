@@ -45,8 +45,8 @@ const Contact = () => {
     return (
         <div className='row contact' id='contact' style={{ '--contact-img': `url(${ContactBg})` }}>
             <div className='row contact-container'>
-                <div className='col-xl-5 col-lg-4 col-md-4 col-sm-4 col-xs-4 line-container'><hr className='line'></hr></div>
-                <div className='col-xl-2 col-lg-5 col-md-5 col-sm-5 col-xs-4 contact-header' ><center><span>Contact Us</span></center></div>
+                <div className='col-xl-5 col-lg-3 col-md-3 col-sm-3 col-xs-4 line-container'><hr className='line'></hr></div>
+                <div className='col-xl-2 col-lg-6 col-md-6 col-sm-6 col-xs-4 contact-header' ><center><span>Contact Us</span></center></div>
                 <div className='col-xl-5 col-lg-3 col-md-3 col-sm-3 col-xs-4 line-container'><hr className='line'></hr></div>
                 <div className='row yellow-line'></div>
             </div>
