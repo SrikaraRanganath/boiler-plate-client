@@ -44,7 +44,7 @@ const About = () => {
                 </div>
             </div>
             <div className="col-xl-8 col-lg-8 col-md-6 col-sm-12 col-xs-12">
-                <div className='contact-header'><span>Mr. Rishabh Rajesh Sikchi</span></div>
+                <div className='contact-header'><span>Mr. Rishab Rajesh Sikchi</span></div>
                 <p className="about-content">
                     Rishab has been working with the firm over the course of the last 8 years. He joined the firm with a vision to help investors in making investment choices based on their risk appetite, and wealth creation. He gained trust of the firm’s clients due to his passion to provide services with dedication and excellence. In his quest for providing excellent services, he regularly trains and updates his staff with respect to any changes in the execution and regulatory changes from time to time. 
                 </p>  

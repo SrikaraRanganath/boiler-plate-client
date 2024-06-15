@@ -26,7 +26,7 @@ const Footer = ({updateActiveTab}) => {
                     </div>
                 </div>
                 <div className="row footer-info">
-                    <span><BsTelephone size={23}/> <a href="tel:+91984-599-5815" style={{textDecoration: 'none', color: 'whitesmoke'}} > &nbsp; <strong>+080 26793240</strong> </a></span>
+                    <span><BsTelephone size={23}/> <a href="tel:+91984-599-5815" style={{textDecoration: 'none', color: 'whitesmoke'}} > &nbsp; <strong>+91 9370154501</strong> </a></span>
                 </div>
                 <div className="row footer-info">
                     <span><AiOutlineMail size={25}/> <a href="mailto:vilaashcorp@gmail.com" style={{textDecoration: 'none',color: '#2596be'}} > &nbsp; <strong>mrsikchi@gmail.com</strong></a></span>

@@ -81,7 +81,7 @@ const Contact = () => {
                        </div>
                        <div className='form-group'>
                             <label className='contact-label'>Mobile Number <span style={{color: 'red'}}>*</span></label>
-                            <input type="tel" className='form-control contact-input' id="exampleFormControlInput3" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder='+91 98991 67899' />
+                            <input type="tel" className='form-control contact-input' id="exampleFormControlInput3" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder='+91 9370154501' />
                        </div>
                         <div className="form-group">
                             <label className='contact-label' htmlFor="exampleFormControlTextarea1">Enter your message <span style={{color: 'red'}}>*</span></label>

@@ -20,7 +20,7 @@ const Home = () => {
 
   return (
     <div className='row home' id='home'>
-        <div className='builders' style={{textWrap: 'balprettyance'}}>
+        {/* <div className='builders' style={{textWrap: 'balprettyance'}}>
             <span className="why-your">Your </span>
             <span className='animated-wealth-content'>
                 <AnimatedLetters
@@ -29,7 +29,7 @@ const Home = () => {
                 idx={wealthAniamtedText.length}
                 />
             </span>
-        </div>
+        </div> */}
         <div className='row why-content'>
             <div className='col-xl-3 col-lg-4 col-md-3 col-sm-12 col-xs-12 why-heading'>
                 <TypeWriterEffect textStyle={{fontFamily: 'Inter', fontWeight:800}} startDelay={100} cursorColor='#DADADA' text='Why Invest 💸?' typeSpeed={100} loop={true} />
