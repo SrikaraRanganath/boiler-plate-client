@@ -73,15 +73,15 @@ const Contact = () => {
                     <form className='contact-form' id='contact-form' onSubmit={(event) => event.preventDefault()}>
                         <div className="form-group">
                             <label className='contact-label'>Email address <span style={{color: 'red'}}>*</span></label>
-                            <input type="email" className="form-control contact-input" id="exampleFormControlInput1" placeholder="name@example.com" />
+                            <input type="email" className="form-control contact-input" id="exampleFormControlInput1" placeholder="akhil@gmail.com" />
                         </div>
                        <div className='form-group'>
                             <label className='contact-label'>Full Name <span style={{color: 'red'}}>*</span></label>
-                            <input type="text" className='form-control contact-input' id="exampleFormControlInput2" placeholder='John Doe' />
+                            <input type="text" className='form-control contact-input' id="exampleFormControlInput2" placeholder='Akhil' />
                        </div>
                        <div className='form-group'>
                             <label className='contact-label'>Mobile Number <span style={{color: 'red'}}>*</span></label>
-                            <input type="tel" className='form-control contact-input' id="exampleFormControlInput3" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder='98459 95815' />
+                            <input type="tel" className='form-control contact-input' id="exampleFormControlInput3" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder='+91 98991 67899' />
                        </div>
                         <div className="form-group">
                             <label className='contact-label' htmlFor="exampleFormControlTextarea1">Enter your message <span style={{color: 'red'}}>*</span></label>
@@ -91,7 +91,6 @@ const Contact = () => {
                     </form>
                 </div>
             </div>
-            
         </div>
     );
 }
