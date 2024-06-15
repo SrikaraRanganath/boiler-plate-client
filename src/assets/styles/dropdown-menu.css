@@ -74,3 +74,26 @@
         top: 100px;
     }
 }
+@media (max-width:990px){
+
+    .dropdown-menu-container .dropdown-menu-header {
+        color: black;
+    }
+
+    .dropdown-menu-container .dropdown-menu-options {
+        background-color: transparent;
+        position: relative;
+        top: 5px;
+        box-shadow: none;
+        padding: 5px 0 0 10px;
+    }
+
+    .dropdown-menu-container .dropdown-menu-options > .dropdown-option > a {
+        color: black;
+        font-size: 0.8em;
+    }
+
+    .dropdown-menu-container .dropdown-menu-options > .dropdown-option:not(:last-child) {
+        border-bottom: 1px solid #6d6c6c;
+    }
+}

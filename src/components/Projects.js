@@ -11,27 +11,23 @@
 
     const Projects = () => {
         return (
-            <div className="row projects" id="projects">
-                {/* <div className='row contact-container'>
-                    <div className='col-xl-5 col-lg-4 col-md-4 col-sm-4 col-xs-4 line-container'><hr className='line'></hr></div>
-                    <div className='col-xl-2 col-lg-5 col-md-5 col-sm-5 col-xs-4 contact-header'><span>Our Services</span></div>
-                    <div className='col-xl-5 col-lg-3 col-md-3 col-sm-3 col-xs-4 line-container'><hr className='line'></hr></div>
-                    <div className='row yellow-line'></div>
-                </div> */}
-                <div class="container">
-                    <div class="row" style={{alignItems: 'center'}}>
-                        <div class="col-xl-5 col-lg-3 col-md-3 col-sm-3 col-xs-4 line-container">
-                            <hr class="line"></hr>
+<div className="row projects" id="projects">
+                <div className="container">
+                    <div className="row" style={{ alignItems: 'center' }}>
+                        <div className='col-xl-5 col-lg-3 col-md-3 col-sm-3 col-xs-4 line-container'>
+                            <hr className='line'></hr>
                         </div>
-                        <div class="col-xl-2 col-lg-6 col-md-6 col-sm-6 col-xs-4 contact-header">
-                            <span><center>Services</center></span>
+                        <div className='col-xl-2 col-lg-6 col-md-6 col-sm-6 col-xs-4 contact-header'>
+                            <center><span>Services</span></center>
                         </div>
-                        <div class="col-xl-5 col-lg-3 col-md-3 col-sm-3 col-xs-4 line-container">
-                            <hr class="line"></hr>
+                        <div className='col-xl-5 col-lg-3 col-md-3 col-sm-3 col-xs-4 line-container'>
+                            <hr className='line'></hr>
                         </div>
                     </div>
+                    <div className='row yellow-line'></div>
                 </div>
-                <div className="row" style={{marginTop: '60px'}}>
+
+                <div className="row" style={{marginTop: '1em'}}>
                     <div className='col-xl-8 col-lg-8 col-md-9 col-sm-12 col-xs-12'>
                     <div className='contact-header'><span>Mutual Funds</span></div>
                     <p className="about-content">
@@ -45,7 +41,7 @@
                         </div>
                     </div>
                 </div>
-                <div className="row" style={{marginTop: '20px'}}>
+                <div className="row reverse-on-mobile" style={{marginTop: '20px'}}>
                     <div className="col-xl-4 col-lg-4 col-md-3 col-sm-12 col-xs-12">
                         <div className="insurance-img-container">
                             <img src={Insurance} alt="Insurance" />

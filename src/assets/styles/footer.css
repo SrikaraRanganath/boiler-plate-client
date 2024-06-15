@@ -27,7 +27,9 @@
     align-items: center;  
     gap: 0.5%;
 }
-
+.footer-amfi{
+    text-align:center;
+}
 .footer-image-container {
     margin:0;
     padding:0; 
@@ -111,4 +113,32 @@
 .right-div {
     flex:1;
     margin-left:3.5%
+}
+
+@media(max-width:990px){
+    .redirect-container {
+        flex: 1;
+        text-transform: uppercase; 
+        text-align: right;
+        margin:0;
+        padding-right:1.4em;
+        padding-top:1em
+    }
+    .footer-plug{
+        text-align:center;
+        align-items: center;
+    }
+    .footer-copyright{
+        padding-left: 2em;
+    }
+    .footer{
+        scale: 0.2em;
+    }
+    .footer-amfi{
+        
+        white-space: nowrap;
+    }
+    .footer-reg{
+        text-align: center;
+    }
 }

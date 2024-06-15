@@ -1,12 +1,11 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import TypeWriterEffect from 'react-typewriter-effect';
 import '../assets/styles/home.css';
-import AnimatedLetters from './AnimatedLetters';
-import { useState } from 'react';
+//import AnimatedLetters from './AnimatedLetters';
 import '../assets/styles/animatedletters.css';
 
 const Home = () => {
-  const [letterClass, setLetterClass] = useState('text-animate');
+  /* const [letterClass, setLetterClass] = useState('text-animate');
   
   const wealthAniamtedText = " Wealth Partner.";
 
@@ -17,7 +16,7 @@ const Home = () => {
 
     return () => clearTimeout(timer);
   }, []);
-
+  */
   return (
     <div className='row home' id='home'>
         {/* <div className='builders' style={{textWrap: 'balprettyance'}}>

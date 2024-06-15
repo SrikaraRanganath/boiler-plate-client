@@ -34,7 +34,7 @@ const Footer = ({updateActiveTab}) => {
             </div>
             
 
-            <div className="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 footer-infos">
+            <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 footer-amfi">
                 <div className="row footer-info">
                     <div className="footer-image-container">
                         <img  className="footer-image" src={Amfi} alt="AMFI"/>
@@ -65,13 +65,13 @@ const Footer = ({updateActiveTab}) => {
                 <div className="row footer-info parent-about">
                     <p className="footer-about" style={{marginBottom: '0px'}}><strong>Since:</strong> August 31,2007</p>
                     <p className="footer-about"><strong>Current Validity:</strong> August 29, 2024</p>
-                    <p style={{fontSize: '14px  '}}><strong> AMFI REGISTERED MUTUAL FUND DISTRIBUTOR </strong></p>
+                    <p className="footer-reg" style={{fontSize: '14px '}}><center><strong> AMFI REGISTERED MUTUAL FUND DISTRIBUTOR </strong></center></p>
                 </div>
             </div>
 
 
 
-            <div className="col-xl-2 col-lg-3 col-md-3 col-sm-12 col-xs-12 footer-infos footer-links">
+            <div className="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-xs-12 footer-infos footer-links">
                 <h4>Links</h4>
                 <div className="row footer-info">
                     <a className='footer-link' href='#home'>Home</a>

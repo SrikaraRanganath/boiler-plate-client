@@ -133,7 +133,6 @@
     }
 
     .navbar-mobile .navbar-links-mobile ul {
-        text-align: center;
         display: flex;
         list-style: none;
         flex-direction: column;
@@ -142,7 +141,7 @@
         position: absolute;
         top: 105%;
         left: 60%;
-        width: 30%;
+        width: 40%;
         border-radius: 3px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
     }

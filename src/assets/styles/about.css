@@ -48,7 +48,7 @@
     border-bottom: none !important;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 720px) {
     .about-content {
         margin-top: 6%;
     }
@@ -56,4 +56,21 @@
     .about-carousel .carousel-item{
         height: 60vw;
     }
+
+    .contact-header > span {
+        font-size: 0.8em;
+    }
+
+    .line {
+        display: none;
+        margin-top: 5%;
+    }
+
+    .yellow-line {
+        background-color: #1c6ade;
+        height: 7%;
+        width: 90%;
+    }
+
+
 }

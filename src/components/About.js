@@ -1,9 +1,4 @@
 import React from "react";
-import Office1 from '../assets/images/about/office-1.jpg';
-import Office2 from '../assets/images/about/office-2.jpg';
-import Office3 from '../assets/images/about/office-3.jpg';
-import Office4 from '../assets/images/about/office-4.jpg';
-import Office5 from '../assets/images/about/office-5.jpg';
 import Meenakshi from '../assets/images/about/Meenakshi.png';
 import Rishabh from '../assets/images/about/Rishabh.png';
 import '../assets/styles/about.css';
@@ -12,12 +7,12 @@ const About = () => {
     return (
     <div className="row about" id="about">
         <div className='row about-container'>
-            <div className='col-5 line-container'><hr className='line'></hr></div>
-            <div className='col-2 contact-header'><center><span>About Us</span></center></div>
-            <div className='col-5 line-container'><hr className='line'></hr></div>
+            <div className='col-xl-5 col-lg-3 col-md-3 col-sm-3 col-xs-4 line-container'><hr className='line'></hr></div>
+            <div className='col-xl-2 col-lg-6 col-md-6 col-sm-6 col-xs-4 contact-header'><center><span>About Us</span></center></div>
+            <div className='col-xl-5 col-lg-3 col-md-3 col-sm-3 col-xs-4 line-container'><hr className='line'></hr></div>
             <div className='row yellow-line'></div>
         </div>
-        <div className="row" style={{marginTop: '2%'}}>
+        <div className="row reverse-on-mobile" style={{marginTop: '1em'}}>
             <div className="col-xl-8 col-lg-8 col-md-6 col-sm-12 col-xs-12">
                 <div className='contact-header'><span>Mrs. Meenakshi Rajesh Sikchi</span></div>
                 <p className="about-content">

@@ -4,12 +4,15 @@
     background-size:contain;
     opacity:0.8;
     padding:1%;
+    background-image: url('../images/contact.jpg'); 
 }
 
 .contact-container {
     display: flex;
     font-family:'Montserrat','sans-serif';
     font-weight:bold;
+    align-items: center;
+    text-align: center;
 }
 
 .contact-header {
@@ -74,10 +77,18 @@
         height: 7%;
         width: 90%;
         margin-left: 6%;
-        margin-top: 5%;
     }
 
     .contact-form {
-        margin-left: 6%;
+        margin-right:4.5em;
+    }
+
+    .we-are{
+        width:0.5em
+    }
+
+    .contact {
+        width: 96%;
+        margin: 0px auto;
     }
 }

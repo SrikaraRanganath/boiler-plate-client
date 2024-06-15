@@ -115,3 +115,21 @@ transform: scale(1.1);
         width: 81vw;
     }
 }
+@media screen and (max-width: 720px) {
+    .reverse-on-mobile {
+        flex-direction: column-reverse;
+    }
+
+    .line {
+        display: none;
+        margin-top: 5%;
+    }
+
+    .yellow-line {
+        display: block; 
+        background-color: #1c6ade;
+        height: 7px; 
+        width: 90%;
+        border-radius:3px;
+    }
+}
