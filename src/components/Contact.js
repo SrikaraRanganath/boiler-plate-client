@@ -48,8 +48,8 @@ const Contact = () => {
                             <label className='contact-label' htmlFor="exampleFormControlTextarea1">Enter your message <span style={{color: 'red'}}>*</span></label>
                             <textarea className="form-control contact-input" id="exampleFormControlTextarea1" ></textarea>
                         </div>
-                        <center><button className='contact-submit' type='submit'> Submit </button></center>
                     </form>
+                    <center><button className='contact-submit' type='submit'> Submit </button></center>
                 </div>
             </div>
         </div>

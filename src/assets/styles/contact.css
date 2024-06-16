@@ -18,7 +18,7 @@
 
 .contact-header {
     white-space:nowrap;
-    font-weight: 800;
+    font-weight: bold;
     font-size: 210%;
     color:black !important;
 }
@@ -141,7 +141,7 @@
     }
 
     .contact-form {
-        margin-right:4.5em;
+        margin-left: -0.1em;
     }
 
     .we-are{
@@ -160,6 +160,7 @@
         margin: 10px 0px;
     }
     .contact-box{
-        padding-right:35px;
+        justify-content: left;
+        align-items: unset;
     }
 }

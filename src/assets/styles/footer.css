@@ -119,11 +119,15 @@
 @media (max-width: 990px) {
     .footer{
         padding-top:15px;
+        width:100%;
+        overflow-x:hidden;
     }
 
     .footer-amfi{
-        margin-top:25px;
-        margin-bottom:25px;
+        margin-left: 0;
+        margin-right:0;
+        padding: 0 0 0 0;
+        transform:scale(0.8)
     }
     .footer-plug {
         flex-direction: column;
@@ -144,7 +148,6 @@
 
     .redirect-link {
         margin-left: 7px;
-        margin-right: 15px;
     }
 
     .footer-heading{
@@ -159,9 +162,16 @@
         height:60px;
     }
     .footer-info{
-        font-size:15px;
+        font-size:11px;
+    }
+    .footer-infos{
+        width:90%;
     }
     .footer-subheading{
         margin-top:-1%;
     }
+    .right-div{
+        font-size:11px;
+    }
+
 }
