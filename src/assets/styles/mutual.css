@@ -92,3 +92,10 @@
 .mutual-advantage:nth-child(odd) {
     flex: 1 1 calc(50% - 10px);
 }
+
+@media (max-width:720px){
+    .mutual-advantages {
+        margin-right:1.4em;
+    }
+    
+}

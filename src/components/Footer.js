@@ -9,7 +9,7 @@ import "../assets/styles/footer.css";
 const Footer = ({updateActiveTab}) => {
     return (
         <div className="footer">
-        <div className="row" style={{marginTop: '3%', width: '100%'}}>
+        <div className="row" >
 
         <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 footer-infos" >
                 <h4>Contact</h4>
@@ -26,10 +26,10 @@ const Footer = ({updateActiveTab}) => {
                     </div>
                 </div>
                 <div className="row footer-info">
-                    <span><BsTelephone size={23}/> <a href="tel:+91984-599-5815" style={{textDecoration: 'none', color: 'whitesmoke'}} > &nbsp; <strong>+91 9370154501</strong> </a></span>
+                    <span><BsTelephone size={23}/> <a href="tel:+91 9370154501" style={{textDecoration: 'none', color: 'whitesmoke'}} > &nbsp; <strong>+91 9370154501</strong> </a></span>
                 </div>
                 <div className="row footer-info">
-                    <span><AiOutlineMail size={25}/> <a href="mailto:vilaashcorp@gmail.com" style={{textDecoration: 'none',color: '#2596be'}} > &nbsp; <strong>mrsikchi@gmail.com</strong></a></span>
+                    <span><AiOutlineMail size={25}/> <a href="mailto:mrsikchi@gmail.com" style={{textDecoration: 'none',color: '#2596be'}} > &nbsp; <strong>mrsikchi@gmail.com</strong></a></span>
                 </div>
             </div>
             
@@ -48,7 +48,7 @@ const Footer = ({updateActiveTab}) => {
                         <p><strong>EUIN:</strong>E182587</p>
                     </div>
                 </div>
-                <div className="row footer-info parent-about">
+                <div className="row footer-info parent-about" style={{marginTop: '-15px'}}>
                     <p className="footer-about" style={{marginBottom: '0px'}}><strong>Since:</strong> January 30,2017</p>
                     <p className="footer-about"><strong>Current Validity:</strong> September 20, 2025</p>
                     <p style={{fontSize: '14px  '}}><strong> AMFI REGISTERED MUTUAL FUND DISTRIBUTOR </strong></p>
@@ -62,7 +62,7 @@ const Footer = ({updateActiveTab}) => {
                         <p><strong>EUIN:</strong>E054631</p>
                     </div>
                 </div>
-                <div className="row footer-info parent-about">
+                <div className="row footer-info parent-about" style={{marginTop: '-15px'}}>
                     <p className="footer-about" style={{marginBottom: '0px'}}><strong>Since:</strong> August 31,2007</p>
                     <p className="footer-about"><strong>Current Validity:</strong> August 29, 2024</p>
                     <p className="footer-reg" style={{fontSize: '14px '}}><center><strong> AMFI REGISTERED MUTUAL FUND DISTRIBUTOR </strong></center></p>

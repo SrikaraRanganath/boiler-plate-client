@@ -112,7 +112,7 @@
     }
 
     .navbar-logo {
-        width: 30%;
+        width: 40%;
     }
 
     .navbar-mobile {
@@ -130,6 +130,7 @@
         position: absolute;
         right: 11%;
         cursor: pointer;
+        margin-right:-1.3em;
     }
 
     .navbar-mobile .navbar-links-mobile ul {
@@ -140,10 +141,10 @@
         color: white;
         position: absolute;
         top: 105%;
-        left: 60%;
-        width: 40%;
+        left: 55%;
+        width: 45%;
         border-radius: 3px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     }
 
     .nav-item-mobile {
@@ -192,6 +193,7 @@
         display: inline-block;
         text-align: center;
         line-height: 1;
+        transform:scale(0.8);
       }
       
       .client-button:hover {
@@ -211,12 +213,9 @@
     .client-button-container{
         align-items: center;
         justify-content: center;
-        padding: 1% 4%;
+        position:absolute;
+        right:10%;
+        padding: 1% 4%;   
     }
-.client-button-container{
-    position:absolute;
-    right:17%;
-    padding: 1% 4%;
-}
 }
 

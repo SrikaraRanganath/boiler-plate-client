@@ -8,7 +8,7 @@ const About = () => {
     <div className="row about" id="about">
         <div className='row about-container'>
             <div className='col-xl-5 col-lg-3 col-md-3 col-sm-3 col-xs-4 line-container'><hr className='line'></hr></div>
-            <div className='col-xl-2 col-lg-6 col-md-6 col-sm-6 col-xs-4 contact-header'><center><span>About Us</span></center></div>
+            <div className='col-xl-2 col-lg-6 col-md-6 col-sm-6 col-xs-4 about-header'><center><span>About Us</span></center></div>
             <div className='col-xl-5 col-lg-3 col-md-3 col-sm-3 col-xs-4 line-container'><hr className='line'></hr></div>
             <div className='row yellow-line'></div>
         </div>
@@ -28,7 +28,7 @@ const About = () => {
                 />
             </div>
         </div>
-        <div className="row" style={{marginTop: '60px'}}>
+        <div className="row second-about" style={{marginTop: '60px'}}>
             <div className="col-xl-4 col-lg-8 col-md-6 col-sm-12 col-xs-12">
                 <div className="founder-img-container">
                     <img

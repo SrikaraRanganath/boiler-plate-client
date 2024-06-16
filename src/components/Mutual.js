@@ -9,8 +9,12 @@ import flexibility from '../assets/images/mutual/flexibility.png';
 import convinience from '../assets/images/mutual/convinience.png';
 import regulatory from '../assets/images/mutual/regulatory.png';
 import historical from '../assets/images/mutual/diversification.png';
+import React, { useEffect } from 'react'; 
 
 const Mutual = () => {
+    useEffect(() => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, []);
     return (
         <>
         <div class="mutual-container">

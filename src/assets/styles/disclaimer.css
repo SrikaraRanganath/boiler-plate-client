@@ -12,3 +12,13 @@
 .disclaimer-container > div.disclaimer-text-content > p {
     text-align: justify;
 }
+
+@media (max-width:720px){
+    .disclaimer-header{
+        font-size:1.7em;
+    }
+
+    .disclaimer-text{
+        font-size: 0.89em;
+    }
+}

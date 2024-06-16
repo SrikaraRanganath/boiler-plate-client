@@ -70,8 +70,8 @@
     font-size: 14px; 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 720px) {
     .button-row {
-        justify-content: center; /* Center items on smaller screens */
+        justify-content: center;
     }
 }

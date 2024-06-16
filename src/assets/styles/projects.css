@@ -70,29 +70,7 @@
     width: 340px;
 }
 
-.founder-img-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.founder-img {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-  }
-  
-.founder-image:hover {
-transform: scale(1.1);
-}  
-
-.about-content {
-    font-size: 1.1em;
-    text-align: justify;
-    margin-right: 1.5%;
-}
-
-@media (max-width: 600px) {
+@media (max-width: 720px) {
     .projects-video {
         margin-top: 6%;
         width: 83vw;
@@ -114,8 +92,6 @@ transform: scale(1.1);
         margin-left: 3%;
         width: 81vw;
     }
-}
-@media screen and (max-width: 720px) {
     .reverse-on-mobile {
         flex-direction: column-reverse;
     }
@@ -127,9 +103,16 @@ transform: scale(1.1);
 
     .yellow-line {
         display: block; 
-        background-color: #1c6ade;
-        height: 7px; 
-        width: 90%;
+        background-color: #FFBD59;
+        height: 4px; 
+        width: 40%;
         border-radius:3px;
+        margin-left:30%;
     }
+
+    .mutual-img-container img,
+    .insurance-img-container img {
+        width: 250px;
+    }
+
 }

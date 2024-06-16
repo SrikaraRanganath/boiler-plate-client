@@ -4,9 +4,12 @@ import health from '../assets/images/insurance/health.png';
 import motor from '../assets/images/insurance/motor.png';
 import travel from '../assets/images/insurance/travel.png';
 import others from '../assets/images/insurance/other.png';
-
+import React, { useEffect } from 'react'; 
 
 const Insurance = () => {
+    useEffect(() => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, []);
     return(
         <>
  <div class="insurance-container">

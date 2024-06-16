@@ -102,3 +102,13 @@
 #type-03 .insurance-circle { background-color: #99cc33; }
 #type-04 .insurance-circle { background-color: #ff9933; }
 #type-05 .insurance-circle { background-color: #cc33cc; }
+
+@media(max-width:720px){
+    
+#type-01 { top: 20px; left: calc(50% - 62px); }
+#type-02 { top: 200px; left: calc(15% - 60px); }
+#type-03 { top: 200px; left: calc(85% - 70px); }
+#type-04 { top: 380px; left: calc(35% - 95px); }
+#type-05 { top: 380px; left: calc(65% - 75px); }
+
+}

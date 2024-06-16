@@ -1,8 +1,12 @@
 import React from 'react';
 import { FaExternalLinkAlt } from "react-icons/fa";
 import '../assets/styles/kyc.css';
+import { useEffect } from 'react'; 
 
 const Kyc = () => {
+    useEffect(() => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, []);
     return(
         <>
         <div className="kyc">

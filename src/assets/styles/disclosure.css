@@ -54,3 +54,26 @@
   tr:last-child td {
     border-bottom: none; 
   }
+
+  @media (max-width:720px){
+    .disclosure{
+      overflow-x:hidden;
+      flex-direction: column;
+    }
+    .disclosure-header{
+        font-size:1.7em;
+    }
+    .table-container {
+      margin: 0 0;
+      padding:0 0;
+  }
+  table {
+
+      transform: scale(0.7); 
+      transform-origin: center;
+      overflow: hidden; 
+  }
+    .disclosure-text{
+        font-size: 0.89em;
+    }
+}

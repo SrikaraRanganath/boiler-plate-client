@@ -78,14 +78,23 @@
     .why-heading {
         margin-bottom: 4%;
         text-align: center;
-        margin-left: 30%;
-    }
-
-    .why-content > div:first-child {
-        width: fit-content;
     }
 
     .builders{
         display:none;
     }
+
+    .row.why-content:nth-child(1) {
+        font-size: 0.6em;
+    }
+
+    .why-heading > div.react-typewriter-text-wrap > h1.react-typewriter-text {
+        text-align: center;
+        padding-left:25px;
+    }
+
+    .why-text {
+        line-height: 17px;
+    }
+
 }
