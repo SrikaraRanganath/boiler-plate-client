@@ -63,17 +63,35 @@
     .disclosure-header{
         font-size:1.7em;
     }
-    .table-container {
-      margin: 0 0;
-      padding:0 0;
+    .disclosure-table-container {
+      margin: 0 0 0 0;
+      padding:0 0 0 0;
   }
   table {
-
-      transform: scale(0.7); 
-      transform-origin: center;
+    width: 90%;
+      transform:scale(0.80);
       overflow: hidden; 
   }
     .disclosure-text{
         font-size: 0.89em;
     }
+    .disclosure-header {
+      font-size: 1.7em;
+  }
+
+  .disclosure-table-container {/* Reduce the width of the container */
+    margin: 0 auto; /* Center the container */
+}
+
+.disclosure-table {
+    font-size: 0.8em; /* Reduce font size for smaller screens */
+}
+
+.disclosure-table th, .disclosure-table td {
+    padding: 4px; /* Reduce padding for smaller screens */
+}
+
+.disclosure-text {
+    font-size: 0.89em;
+}
 }
